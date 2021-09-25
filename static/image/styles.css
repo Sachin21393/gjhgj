@@ -1,0 +1,121 @@
+.fa:hover {
+    opacity: 0.7;
+  }
+  
+  /* Set a specific color for each brand */
+  
+  /* Facebook */
+
+  .fa-facebook {
+    background: transparent;
+    color: white;
+  }
+  
+  /* Twitter */
+  .fa-twitter {
+    background: transparent;
+    color: white;
+  }
+  .fa {
+    padding: 18px;
+      font-size: 30px;
+      height: 70px;
+      width: 74px;
+      text-align: center;
+      text-decoration: none;
+      border-radius: 50%;
+      border: 2px solid white;
+      margin-left: 9px;
+      margin-right: 8px;
+  }
+  
+  .fa-envelope {
+    background: transparent;
+    color: white;
+  }
+  .fa-instagram {
+    background: transparent;
+    color: white;
+  }
+  * {
+    box-sizing: border-box;
+  }
+  .column {
+    float: left;
+    width: 25%;
+    padding: 5px;
+  }
+  
+  /* Clearfix (clear floats) */
+  .row::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+  body{
+      
+      font-size: large;
+  }
+  .whitetext{
+      color: white !important;
+  }
+
+  .container{
+    padding-top: 10%;
+    width:100%;
+    height:fit-content;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    color: #FFF;
+  }
+
+  .two-divs{
+      padding-bottom: 1%;
+      text-align: justify;
+      line-height: 1.7;
+      padding-left: 15%;
+      padding-right: 15%;
+  }
+
+  .two-divs h2{
+    padding-bottom: 2%;
+  }
+
+  .start-game{
+      padding-top: 3%;
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+  }
+
+  .start-game input{
+      color: #FFF;
+      background-color: #082642;
+      border-radius: 20px;
+      border-style: none;
+      padding: 1.1%;
+  }
+  #myVideo {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%; 
+    min-height: 100%;
+    z-index: -1;
+  }
+
+  #but{
+    padding: 15px 15px;
+    border-radius: 30px;
+
+  }
+
+
+  .bg{
+    background: transparent !important;
+  }
+  
+  .bg.scrolled{
+    background: black !important;
+  }
